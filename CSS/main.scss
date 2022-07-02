@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+$base: #329bfc;
+$solid: #0c263b;
+$input: #2b4e62;
+
+body {
+    background: $base;
+  }
+  
+  .wrapper {
+    height: 525px;
+    width: 360px;
+    color: white;
+    background: $solid;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+
+    .name{
+    text-align: center;
+    margin-top: 1rem;
+    }
+  }
+  
+  #topContainer {
+    margin-top: 4rem;
+  }
+  
+  .container {
+    margin-top: 1.4rem;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+  
+  .inputContainer {
+    background: $input;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  #billTotalInput,
+  #tipInput {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    color: aliceblue;
+    outline: none;
+    padding: 0.5rem;
+  }
+  
+  .buttonContainer {
+    background: $base;
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2px;
+  }
+  
+  .splitButton {
+    background: none;
+    border: none;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .splitButton {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+  }
+  
+  .buttonText {
+    color: $solid !important;
+    font-size: 1.2rem;
+  }
+  
+  .splitAmount {
+    font-size: 1.6rem;
+    margin: 0.8rem;
+  }
+  
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .total {
+    font-size: 2rem;
+  }
+
